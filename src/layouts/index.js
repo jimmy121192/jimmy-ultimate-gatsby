@@ -30,4 +30,10 @@ const Layout = ({ children, location }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
+//Set default props for the location to solve WebpackError: Cannot read property 'pathname' of undefined, with gatsby and netlify
+Layout.defaultProps = {
+  location: {},
+}
+
 export default Layout
