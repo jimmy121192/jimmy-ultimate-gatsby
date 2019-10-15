@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `BD`,
-    description: `BD is a global medical technology company that is advancing the world of health by improving medical discovery, diagnostics and the delivery of care.`,
-    author: `bd`,
+    title: `Jimmy Gatsby Starter`,
+    description: `This is my Gatsby Starter Template`,
+    author: `Jimmy Truong`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `BD Web App`,
-        short_name: `BD`,
+        name: `Jimmy Web App`,
+        short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#023970`,
         theme_color: `#023970`,

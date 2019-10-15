@@ -4,7 +4,7 @@
 
     Navigate into your new site’s directory and start it up.
 
-    `cd bdwebapp`
+    `cd jimmy-ultimate-gatsby`
     `npm run develop`
 
 2.  **Open the source code and start editing!**
@@ -59,7 +59,3 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 
 ## 💫 Deploy
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/36d17bd7-1aef-499f-8e2a-1c764e8e7e89/deploy-status)](https://app.netlify.com/sites/bdwebapp/deploys)
-
-The staging site of BD APP: https://bdwebapp.netlify.com
