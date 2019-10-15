@@ -1,0 +1,31 @@
+@import "typography";
+.page-section {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 79.5px);
+}
+.page-container {
+  padding: 1.5rem 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.button-orange {
+  a {
+    padding: 10px 30px;
+    line-height: 40px;
+    background-color: $color__orange;
+    transition: 0.3s all;
+    color: #ffffff;
+  }
+}
+.button-orange a:hover {
+  text-decoration: none;
+  transition: 0.3s all;
+  background-color: $color__light-orange;
+  color: #ffffff;
+}
