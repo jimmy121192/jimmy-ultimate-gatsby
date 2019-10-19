@@ -24,6 +24,7 @@ Features:
     Navigate into your new site’s directory and start it up.
 
     `cd jimmy-ultimate-gatsby`
+    `npm install`
     `npm run develop`
 
 2.  **Open the source code and start editing!**
